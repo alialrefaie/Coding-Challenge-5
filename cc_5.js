@@ -14,7 +14,7 @@ class Employee {
     // Manager class that extends Employee
     class Manager extends Employee {
         constructor(name, monthlySalary, department) {
-            super(name, monthhlySalary); // Calls the constructur of the Employee class
+            super(name, monthlySalary); // Calls the constructur of the Employee class
             this.department = department;
         }
         
