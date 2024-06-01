@@ -10,13 +10,13 @@ class Employee {
     }
 
     class Manager extends Employee {
-        constructor(name, annualSalary) {
-            super(name, annualSalary);
+        constructor(name, monthlySalary, department) {
+            super(name, monthhlySalary); // Calls the constructur of the Employee class
             this.department = department;
         }
         
         calculateAnnualSalary() {
-            return super.calculateAnnualSalary() * 1;
+            return super.calculateAnnualSalary() * 1.15; // Calculate with 15% bonus
         }
     }
 }
