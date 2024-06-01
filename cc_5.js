@@ -1,11 +1,11 @@
 
 class Employee {
-    constructor(name, annualsalary) {
+    constructor(name, monthlySalary) {
         this.name = name;
-        this.annualsalary = annualsalary;
+        this.monthlySalary = monthlySalary;
     }
 
-    calculatemonthlysalary(){
-        calculate this.monthlysalary * 12;
+    calculatAnnualSalary() {
+        return this.monthlySalary * 12;
     }
 }
