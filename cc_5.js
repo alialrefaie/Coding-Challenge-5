@@ -1,4 +1,4 @@
-
+// U72955273
 // Employee class
 class Employee {
     constructor(name, monthlySalary) {
@@ -10,7 +10,8 @@ class Employee {
     calculateAnnualSalary() {
         return this.monthlySalary * 12;
     }
-
+}
+    // Manager class that extends Employee
     class Manager extends Employee {
         constructor(name, monthlySalary, department) {
             super(name, monthhlySalary); // Calls the constructur of the Employee class
@@ -21,7 +22,7 @@ class Employee {
             return super.calculateAnnualSalary() * 1.15; // Calculate with 15% bonus
         }
     }
-}
+
 
 // Instantiate Manager objects
 const manager1 = new Manager("Bob Ross", 6600, "Digital Marketing");
